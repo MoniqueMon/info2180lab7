@@ -15,7 +15,7 @@ function search()
                 {
                     if (xhttp.readyState == 4 && xhttp.status == 200)
                     {
-                        alert(xhttp.responseText);
+                        //alert(xhttp.responseText);
                         document.getElementById("result").innerHTML = xhttp.responseText;
                         
                     }
